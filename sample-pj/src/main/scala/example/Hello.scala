@@ -1,9 +1,25 @@
 package example
 
-object Hello extends Greeting with App {
-  println(greeting)
-}
+import java.time.LocalDateTime
 
-trait Greeting {
-  lazy val greeting: String = "hello"
+import scala.concurrent.ExecutionContext
+
+object Example {
+
+  def main(args: Array[String]): Unit = {
+    val ec: ExecutionContext = scala.concurrent.ExecutionContext.Implicits.global
+    def now: LocalDateTime = LocalDateTime.now()
+
+    println(now)
+
+    ec.execute(new Runnable {
+      override def run(): Unit = {
+        Thread.sleep(3000)
+        println(s"sleep ======> now time: $now")
+        now
+      }
+    })
+
+    println(now)
+  }
 }

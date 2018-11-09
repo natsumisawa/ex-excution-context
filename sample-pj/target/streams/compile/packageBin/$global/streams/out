@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/natsumi.sawa/workspace/ex-excution-context/sample-pj/target/scala-2.12/sample-pj_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/natsumi.sawa/workspace/ex-excution-context/sample-pj/target/scala-2.12/classes/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Example.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/natsumi.sawa/workspace/ex-excution-context/sample-pj/target/scala-2.12/classes/example/Example.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Example$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/natsumi.sawa/workspace/ex-excution-context/sample-pj/target/scala-2.12/classes/example/Example$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Example$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/natsumi.sawa/workspace/ex-excution-context/sample-pj/target/scala-2.12/classes/example/Example$$anon$1.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
